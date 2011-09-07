@@ -1,0 +1,303 @@
+TprotocolExample
+v7
+r0
+t293111913.862095
+cCheck dependencies
+cProcessInfoPlistFile /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/Info.plist test_app-Info.plist
+cProcessPCH /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch.gch test_app_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch.pth test_app_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/main.o /Users/JOHN/Desktop/protocolExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/TestAppDelegate.o /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/ClassWithProtocol.o /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cAnalyze /Users/JOHN/Desktop/protocolExample/main.m
+cAnalyze /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m
+cLd /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample normal i386
+cAnalyze /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m
+cGenerateDSYMFile /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app.dSYM /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample
+cTouch /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004BB15E3000000000000000EE
+t1269915184
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A0DADCB00000000001816A0
+t1242410443
+s1578656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004A0BAA8E00000000000F5D10
+t1242278542
+s1006864
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004A0BC1D70000000000067A80
+t1242284503
+s424576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A0BAE3400000000000E55E0
+t1242279476
+s939488
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A0BA939000000000004D0D0
+t1242278201
+s315600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.h
+c000000004BC7C9F900000000000001AF
+t1271384569
+s431
+i<Foundation/Foundation.h>
+
+N/Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m
+c000000004BC7CFC200000000000001D0
+t1271386050
+s464
+i"ClassWithProtocol.h"
+
+N/Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.h
+c000000004BC7D471000000000000017A
+t1271387249
+s378
+i<UIKit/UIKit.h>
+i"ClassWithProtocol.h"
+
+N/Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m
+c000000004BC7D47600000000000002C3
+t1271387254
+s707
+i"TestAppDelegate.h"
+i"ClassWithProtocol.h"
+
+N/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app
+t1271419113
+s170
+
+N/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app.dSYM
+t1271419113
+s102
+
+N/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/Info.plist
+t1271419113
+s622
+
+N/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/PkgInfo
+t1271419113
+s8
+
+N/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample
+t1271419113
+s19668
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/ClassWithProtocol.o
+t1271419113
+s8008
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/TestAppDelegate.o
+t1271419113
+s19168
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/main.o
+t1271419113
+s6116
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/protocolExample.LinkFileList
+c000000004BC850E800000000000001AD
+t1271419112
+s429
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/StaticAnalyzer/normal/i386/ClassWithProtocol.plist
+t1271419113
+s275
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/StaticAnalyzer/normal/i386/TestAppDelegate.plist
+t1271419113
+s275
+
+N/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/StaticAnalyzer/normal/i386/main.plist
+t1271419113
+s275
+
+N/Users/JOHN/Desktop/protocolExample/main.m
+c000000004BC78E76000000000000016B
+t1271369334
+s363
+i<UIKit/UIKit.h>
+
+N/Users/JOHN/Desktop/protocolExample/test_app_Prefix.pch
+c000000004A45891C00000000000000B9
+t1246071068
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch.pth
+t1271419113
+s1700572
+
+N/var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch.gch
+t1271419113
+s12952976
+
+Ntest_app-Info.plist
+c000000004BC7D752000000000000037A
+t1271387986
+s890
+
+CAnalyze /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m
+s293111913.820865
+e293111913.858817
+r1
+xAnalyze
+x/Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m
+lSLF07#2@71"Analyze /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m293111913#293111913#0(0"0(0#0#63"/Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m4300911832#2013"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -include /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch --analyze /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m -o /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/StaticAnalyzer/normal/i386/ClassWithProtocol.plist0#
+
+CAnalyze /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m
+s293111913.781334
+e293111913.820732
+r1
+xAnalyze
+x/Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m
+lSLF07#2@69"Analyze /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m293111913#293111913#0(0"0(0#0#61"/Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m4300911832#2009"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -include /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch --analyze /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m -o /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/StaticAnalyzer/normal/i386/TestAppDelegate.plist0#
+
+CAnalyze /Users/JOHN/Desktop/protocolExample/main.m
+s293111913.747253
+e293111913.781237
+r1
+xAnalyze
+x/Users/JOHN/Desktop/protocolExample/main.m
+lSLF07#2@50"Analyze /Users/JOHN/Desktop/protocolExample/main.m293111913#293111913#0(0"0(0#0#42"/Users/JOHN/Desktop/protocolExample/main.m4300911832#1979"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -include /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch --analyze /Users/JOHN/Desktop/protocolExample/main.m -o /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293111912#293111912#0(0"0(0#1#0"28710924367954020#0"0#
+
+CCompileC build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/ClassWithProtocol.o /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293111913.731415
+e293111913.798071
+r1
+xCompileC
+xbuild/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/ClassWithProtocol.o
+x/Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m293111913#293111913#0(0"0(0#0#63"/Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m4300911832#2004"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -include /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch -c /Users/JOHN/Desktop/protocolExample/Classes/ClassWithProtocol.m -o /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/ClassWithProtocol.o0#
+
+CCompileC build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/TestAppDelegate.o /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293111913.676356
+e293111913.747152
+r1
+xCompileC
+xbuild/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/TestAppDelegate.o
+x/Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m293111913#293111913#0(0"0(0#0#61"/Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m4300911832#2000"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -include /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch -c /Users/JOHN/Desktop/protocolExample/Classes/TestAppDelegate.m -o /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/TestAppDelegate.o0#
+
+CCompileC build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/main.o /Users/JOHN/Desktop/protocolExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293111913.675029
+e293111913.731302
+r1
+xCompileC
+xbuild/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/main.o
+x/Users/JOHN/Desktop/protocolExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/JOHN/Desktop/protocolExample/main.m293111913#293111913#0(0"0(0#0#42"/Users/JOHN/Desktop/protocolExample/main.m4300911832#1970"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -include /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch -c /Users/JOHN/Desktop/protocolExample/main.m -o /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/main.o0#
+
+CGenerateDSYMFile /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app.dSYM /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample
+s293111913.828390
+e293111913.842057
+r1
+xGenerateDSYMFile
+x/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app.dSYM
+x/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/protocolExample.app.dSYM build/Debug-iphonesimulator/protocolExample.app/protocolExample293111913#293111913#0(0"0(0#0#99"/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample4300911832#398"    cd /Users/JOHN/Desktop/protocolExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample -o /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app.dSYM0#
+
+CLd /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample normal i386
+s293111913.798165
+e293111913.828285
+r1
+xLd
+x/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample
+xnormal
+xi386
+lSLF07#2@104"Link /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample293111913#293111913#0(0"0(0#0#0"4300911832#1006"    cd /Users/JOHN/Desktop/protocolExample    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -filelist /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/Objects-normal/i386/protocolExample.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -framework CFNetwork -framework SystemConfiguration -framework MessageUI -o /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/protocolExample0#
+
+CProcessInfoPlistFile /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/Info.plist test_app-Info.plist
+s293111912.985643
+e293111913.011757
+r1
+xProcessInfoPlistFile
+x/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/Info.plist
+xtest_app-Info.plist
+lSLF07#2@27"Process test_app-Info.plist293111913#293111913#0(0"0(0#0#55"/Users/JOHN/Desktop/protocolExample/test_app-Info.plist29273878621126700#487"    cd /Users/JOHN/Desktop/protocolExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility test_app-Info.plist -genpkginfo /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app/Info.plist0#
+
+CProcessPCH /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch.pth test_app_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s293111913.014128
+e293111913.201303
+r1
+xProcessPCH
+x/var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch.pth
+xtest_app_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@30"Precompile test_app_Prefix.pch293111913#293111913#0(0"0(0#0#55"/Users/JOHN/Desktop/protocolExample/test_app_Prefix.pch4300911832#1841"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -c /Users/JOHN/Desktop/protocolExample/test_app_Prefix.pch -o /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-cwfspksvynxyggclzwsxbyvpnyrb/test_app_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch.gch test_app_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293111913.012664
+e293111913.674895
+r1
+xProcessPCH
+x/var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch.gch
+xtest_app_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile test_app_Prefix.pch293111913#293111913#0(0"0(0#0#55"/Users/JOHN/Desktop/protocolExample/test_app_Prefix.pch4300911832#1850"    cd /Users/JOHN/Desktop/protocolExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-generated-files.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-own-target-headers.hmap -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-all-target-headers.hmap -iquote /Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/protocolExample-project-headers.hmap -F/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator -I/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/include -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources/i386 -I/Users/JOHN/Desktop/protocolExample/build/protocolExample.build/Debug-iphonesimulator/protocolExample.build/DerivedSources -c /Users/JOHN/Desktop/protocolExample/test_app_Prefix.pch -o /var/folders/3y/3yt9shm+HuO5Jw-XtDCo9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-hbtfdaxtphakjedfuvycfiividtj/test_app_Prefix.pch.gch0#
+
+CTouch /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app
+s293111913.858900
+e293111913.861960
+r1
+xTouch
+x/Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app
+lSLF07#2@89"Touch /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app293111913#293111913#0(0"0(0#0#0"4300911832#280"    cd /Users/JOHN/Desktop/protocolExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/JOHN/Desktop/protocolExample/build/Debug-iphonesimulator/protocolExample.app0#
+
